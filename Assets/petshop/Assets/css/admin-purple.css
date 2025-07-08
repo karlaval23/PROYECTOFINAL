@@ -1,0 +1,55 @@
+/* Purple color overrides for admin template */
+
+:root {
+  --admin-primary: #6f42c1;
+  --admin-primary-dark: #4a2a85;
+  --admin-primary-light: #8e63e7;
+}
+
+/* Links */
+a {
+  color: var(--admin-primary) !important;
+}
+a:hover {
+  color: var(--admin-primary-light) !important;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: var(--admin-primary) !important;
+  border-color: var(--admin-primary) !important;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: var(--admin-primary-light) !important;
+  border-color: var(--admin-primary-light) !important;
+}
+
+/* Header */
+.header {
+  background-color: #f8f5fc;
+}
+.header .toggle-sidebar-btn,
+.header .nav-icon,
+.header .nav-profile {
+  color: var(--admin-primary) !important;
+}
+
+/* Sidebar */
+.sidebar {
+  background-color: #f2e9fb;
+}
+.sidebar a {
+  color: var(--admin-primary-dark);
+}
+.sidebar a:hover {
+  color: var(--admin-primary) !important;
+}
+
+.back-to-top {
+  background: var(--admin-primary) !important;
+  border-color: var(--admin-primary) !important;
+}
+.back-to-top:hover {
+  background: var(--admin-primary-light) !important;
+}

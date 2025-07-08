@@ -1,0 +1,15 @@
+.headerRegister{
+	background: #b40ee2;
+	color: #FFF;
+}
+.headerUpdate{
+	background: #8518d3;
+	color: #FFF;
+}
+.notBlock{
+	display: none;
+}
+/* Alinea el cuadro de búsqueda de DataTables a la derecha */
+.dataTables_filter {
+    float: right; /* Alinea el cuadro de búsqueda a la derecha */
+}

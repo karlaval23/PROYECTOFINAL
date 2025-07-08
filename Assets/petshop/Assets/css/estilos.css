@@ -1,0 +1,98 @@
+.iner {
+    display: flex;
+    justify-content: space-between; /* Espacio entre los dos divs */
+}
+
+.er {
+    background-color: #f5f4f5;
+    padding: 20px;
+    border-radius: 20px;
+    width: 60%;
+    margin: 0; /* Eliminar centrado */
+    margin-left: 10%; /* Ajustar alineación a la izquierda */
+    margin-right: 2%; /* Espacio entre los divs */
+}
+.er-side {
+    background-color:#f5f4f5;
+    padding: 20px;
+    border-radius: 20px;
+    width: 70%; /* Ajustar el ancho según sea necesario */
+    margin: 0; /* Eliminar centrado */
+    margin-left: 5%; /* Ajustar alineación a la izquierda */
+    margin-right: 10%; /* Espacio entre los divs */
+   
+}
+
+/*  */
+
+
+/* CSS */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px; /* Opcional: espacio entre los div */
+}
+
+.er h1 {
+    text-align: center;
+    color: #9c0d9a; /* Color morado */
+}
+
+.er label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold; /* Letra en negrita */
+}
+
+.er input, .er select, .er textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #c69bd0;
+    border-radius: 5px;
+}
+
+.er fieldset {
+    border: 1px solid #b595bc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.er fieldset legend {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold; /* Letra en negrita */
+    
+}
+
+
+
+.er button[type="submit"] {
+    background-color: #9c0d9a; /* Color morado */
+    color: #e3d7e6;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    margin: 20px auto; /* Centrar el botón */
+}
+
+.er .hora-suggestions {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.er .hora-suggestions .suggestion {
+    background-color: #9c0d9a; /* Color morado */
+    color: #e3d7e6;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+
